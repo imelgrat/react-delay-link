@@ -1,0 +1,49 @@
+{
+  "name": "react-delay-link",
+  "version": "1.1.2",
+  "description": "A React component to trigger Router links with a delay",
+  "main": "./lib/DelayLink",
+  "typings": "./lib/DelayLink",
+  "scripts": {
+    "start": "webpack --watch",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imelgrat/react-delay-link.git"
+  },
+  "keywords": [
+    "React",
+    "React Router",
+    "React Component",
+    "Link",
+    "Delayed",
+    "Link",
+    "Delay",
+    "Link"
+  ],
+  "author": "Iván Melgrati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imelgrat/react-delay-link/issues"
+  },
+  "homepage": "https://github.com/imelgrat/react-delay-link#readme",
+  "dependencies": {
+    "webpack": "^4.17.0"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack-cli": "^3.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "mini-css-extract-plugin": "latest",
+    "prop-types": "^15.7.0",
+    "react": "^16.8.0",
+    "react-router-dom": "^5.0.0"
+  }
+}
