@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/imelgrat/react-delay-link#readme",
   "dependencies": {
-    "webpack": "^4.17.0",
+    "webpack": "^4.42.1",
     "kind-of": ">=6.0.3"
   },
   "peerDependencies": {
