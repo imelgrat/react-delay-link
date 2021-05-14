@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Router, withRouter } from 'react-router-dom';
-import { createBrowserHistory } from "history";
 
 /**
  * A React component to trigger Router links with a delay
@@ -36,10 +35,9 @@ export class DelayLink extends React.Component {
    */
   handleClick(e) {
     const {
-      to, clickAction,
+      to, clickAction, history,
     } = this.props;
     let { delay, replace } = this.props;
-    const history = createBrowserHistory();
 
     delay = parseInt(delay, 10);
     replace = !!replace;
