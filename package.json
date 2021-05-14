@@ -1,13 +1,14 @@
 {
   "name": "react-delay-link",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A React component to trigger Router links with a delay",
   "main": "./lib/DelayLink",
   "typings": "./lib/DelayLink",
   "scripts": {
     "start": "webpack --watch",
     "dev": "webpack --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
