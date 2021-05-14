@@ -68,7 +68,7 @@ export class DelayLink extends React.Component {
     const { children } = this.props;
     delete props.delay;
     return (
-      <Router history={history}>
+      <Router>
       <div role="link" onClick={this.handleClick} onKeyPress={this.handleClick}>{children}</div>
       </Router>
     );
